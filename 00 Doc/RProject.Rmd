@@ -4,12 +4,18 @@ output: html_document
 ---
 
 
-#First R Project :D
+###First R Project :D
 
 Link to repo:
 <https://github.com/sarstanc/DV_RProject1>
 
-```{r}
+###Import data and check data frames
+```{r, warning=FALSE}
+source("../01 Data/df_all.R", echo=TRUE)
+```
+
+###Graph data
+```{r, warning=FALSE}
 source("../02 Visualizations/ggplot.R", echo=TRUE)
 ```
 
